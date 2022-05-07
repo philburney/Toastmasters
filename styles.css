@@ -1,0 +1,211 @@
+html {
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+body {
+    background-color: white;
+    
+}
+
+.main {
+    position: relative;
+    top: 6rem;
+}
+title {
+    display:none;
+}
+
+/*Nav Bar*/
+
+nav {
+    position:fixed;
+    display: flex;
+    width:100%;
+    border: 2px solid white;
+    justify-content: space-between;
+    background-color: #872b3a;
+    z-index: 2;
+    color: white;
+    text-align: center;
+}
+
+nav img {
+    height:5rem;
+    margin: 0.5rem;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0.4rem 2rem;
+    align-items: flex-end;
+
+}
+
+nav li {
+    padding: 0 1rem;
+}
+
+nav a, nav p {
+    font-family: Helvetica,sans-serif;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:#ffec88;
+}
+/*Banner Section */
+
+.banner {
+    background-image: url("./Resources/Castle_tulips-1.jpg");
+    width: 95%;
+    height: 32rem;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: top;
+    filter:drop-shadow(0.2rem 0.2rem 0.2rem darkgrey)
+    
+}
+
+.headline {
+    background-color: white;
+    width: fit-content;
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+    position: relative;
+    top: 3rem;
+    filter:drop-shadow(0.2rem 0.2rem 0.2rem #ffec88);
+    border-radius: 0.5rem;
+    
+}
+
+.headline p {
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+    text-align: center;
+
+}
+
+.headline h1 {
+    font-size: 3rem;
+    padding: 0.2rem 0.5rem;
+}
+
+
+/*About*/
+
+.about {
+    width:95%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+ 
+
+}
+
+.textabout {
+     padding:0 0.5rem;
+     
+     width:50rem;
+}
+
+.picabout {
+    
+    width: fit-content;
+}
+
+p  {
+   font-size: 1.5rem;
+   text-align: justify;
+   padding:0 2rem;
+  
+
+}
+
+ h2  {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+ 
+ }
+
+ .about img {
+    width:21rem;
+ }
+
+
+ .about2 {
+     display: flex;
+ }
+
+/*Members*/
+
+.memberArea {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem auto;
+
+}
+
+.memberArea figure {
+    flex-basis: 30%;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem darkgrey);
+    margin-bottom: 2rem;
+    
+}
+
+.memberArea img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.memberArea figcaption {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: .5rem;
+   
+
+}
+
+/* Join us */
+
+.joinUs {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #872b3a;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 2rem;
+
+}
